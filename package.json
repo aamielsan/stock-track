@@ -1,0 +1,63 @@
+{
+  "name": "StockTrack",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "react-native start",
+    "android": "react-native run-android",
+    "test": "jest",
+    "clear": "yarn run clear:bundler && yarn run clear:haste",
+    "clear:bundler": "rm -rf /tmp/metro-bundler-cache-*` or `npm start -- --reset-cache",
+    "clear:haste": "rm -rf /tmp/haste-map-react-native-packager-*"
+  },
+  "dependencies": {
+    "formik": "^2.0.8",
+    "lodash": "^4.17.15",
+    "react": "16.8.6",
+    "react-native": "0.60.5",
+    "react-native-elements": "^1.2.7",
+    "react-native-gesture-handler": "^1.5.2",
+    "react-native-keychain": "^4.0.4",
+    "react-native-popup-menu": "^0.15.6",
+    "react-native-reanimated": "^1.4.0",
+    "react-native-screens": "^1.0.0-alpha.23",
+    "react-native-vector-icons": "^6.6.0",
+    "react-navigation": "^4.0.10",
+    "react-navigation-drawer": "^2.3.3",
+    "react-navigation-stack": "^1.10.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.0",
+    "@babel/runtime": "^7.5.0",
+    "@react-native-community/eslint-config": "^0.0.3",
+    "@types/jest": "^24.0.18",
+    "@types/lodash": "^4.14.149",
+    "@types/react": "^16.9.2",
+    "@types/react-native": "^0.60.14",
+    "@types/react-test-renderer": "^16.9.0",
+    "@typescript-eslint/eslint-plugin": "^2.12.0",
+    "babel-jest": "^24.1.0",
+    "eslint": "^6.7.2",
+    "eslint-config-airbnb-typescript": "^6.3.1",
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-plugin-import": "^2.19.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.17.0",
+    "jest": "^24.1.0",
+    "metro-react-native-babel-preset": "0.54.1",
+    "prettier": "^1.19.1",
+    "react-test-renderer": "16.8.6",
+    "typescript": "^3.6.3"
+  },
+  "jest": {
+    "preset": "react-native",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ]
+  }
+}
